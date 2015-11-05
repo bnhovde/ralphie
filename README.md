@@ -22,6 +22,10 @@ As a slack bot:
 
     HUBOT_SLACK_TOKEN=SLACK-TOKEN-GOES-HERE ./bin/hubot --adapter slack
 
+With recent change on staging:
+
+    setsid bin/hubot >./output.log 2>&1 < ./output.log &
+
 You'll see some start up output and a prompt:
 
     [Sat Feb 28 2015 12:38:27 GMT+0000 (GMT)] INFO Using default redis on localhost:6379
